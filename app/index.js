@@ -13,7 +13,6 @@ const router = useRouter();
     <View>
       <Text>Home Screen</Text>
       <Button onPress={() => router.navigate('/tabs')} title='Tabs'/>
-      <Button onPress={() => router.navigate('/tabs')} title='Tabs'/>
       <Button onPress={() => router.navigate('/about')} title='About'/>
     </View>
   );

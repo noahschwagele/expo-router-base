@@ -6,7 +6,7 @@ export default function Settings() {
   const navigation = useNavigation();
 const router = useRouter();
   useEffect(() => {
-    navigation.setOptions({ headerShown: true });
+    navigation.setOptions({ headerShown: false });
   }, [navigation]);
 
   return (
